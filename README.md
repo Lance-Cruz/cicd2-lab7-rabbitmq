@@ -1,0 +1,1 @@
+# cicd2-lab7-rabbitmq
