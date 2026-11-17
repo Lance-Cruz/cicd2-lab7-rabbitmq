@@ -25,7 +25,7 @@ async def main():
                     print(f"Received order {order['order_id']}") 
                     # Simulate 12 seconds of processing 
                     await asyncio.sleep(12) 
-                    print(f"Processed: {order['quantity']} x {order['product']}")
+                    print(f"Processed: {order['quantity']} x {order['product']} ({order['delivery_method']})")
 
 if __name__ == "__main__":
     asyncio.run(main())
